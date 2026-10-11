@@ -3,6 +3,11 @@
     "name": "Theme Toggle",
     "version": "1.1",
     "description": "Toggle between light and dark mode on any webpage.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "permissions": [
         "activeTab",
         "scripting"
@@ -11,6 +16,11 @@
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "Toggle Theme"
+        "default_title": "Toggle Theme",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
     }
 }
